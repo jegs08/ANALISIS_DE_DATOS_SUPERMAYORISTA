@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Análisis de datos con Power BI/h1>
+  <h1>Análisis de datos con Power BI</h1>
 </div>
 
 <div align="center"> 
