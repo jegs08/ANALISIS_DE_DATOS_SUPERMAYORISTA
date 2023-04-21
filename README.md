@@ -3,7 +3,7 @@
 </div>
 
 <div align="center"> 
-  <img src="readme_img/analisis-datos-pandas.png" width="">
+  <img src="readme_img/Microsoft-Power-BI-analisis.png" width="">
 </div>
 
 ## Introducción al documento
