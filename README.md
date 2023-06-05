@@ -503,6 +503,63 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 </table>
 
 ##### CLIENTE
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre Columna</th>
+            <th>Tipo de Dato</th>
+            <th>Null Option</th>
+            <th>Descripción</th>
+            <th>PK</th>
+            <th>FK</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>dni_cliente</strong></td>
+            <td><i>Char(11)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Código del cliente</i></td>
+            <td><i>PK</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>departamento_cliente</strong></td>
+            <td><i>Varchar(50)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Nombre del departamento</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>distrito_cliente</strong></td>
+            <td><i>Varchar(50)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Nombre del distrito</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>punto_geografico</strong></td>
+            <td><i>Varchar(50)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Punto geográfico</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>ubigeo_cliente</strong></td>
+            <td><i>Varchar(50)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Ubigeo del cliente</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+    </tbody>
+</table>
+
+
 ##### VENDEDOR
 ##### TIPO_DOCUMENTO
 ##### 
