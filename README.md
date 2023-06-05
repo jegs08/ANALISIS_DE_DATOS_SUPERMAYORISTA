@@ -679,6 +679,8 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
     <tbody>
         <tr>
             <td rowspan=3 align="center"><strong>Vendedor</strong></td>
+        </tr>
+        <tr>
             <td><i>Nombre-Vendedor</i></td>
             <td><i>Apellido-Vendedor</i></td>
             <td><i>Supevisor-Vendedori></td>
