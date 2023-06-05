@@ -77,7 +77,7 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
         </tr>
         <tr>
             <td align="center">Descripción</td>
-            <td colspan=3 align="center"><i>El total de ventas por periodo</i></td>
+            <td colspan=4 align="center"><i>El total de ventas por periodo</i></td>
         </tr>
         <tr>
             <td align="center">Datos dimensionales</td>
