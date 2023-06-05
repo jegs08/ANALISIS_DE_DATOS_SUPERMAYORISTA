@@ -46,6 +46,13 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 
 ### Requisitos del negocio
 
+|    Identificador    |   *R-01*   |      Nombre     |   *TOP N V VS T*   |
+|---------------------|------------|-----------------|--------------------|
+|         Tipo        |*Funcional* |      Fecha      |    *08/12/2022*    |
+|      Prioridad      |   *Alta*   |    Necesidad    |        *Si*        |
+|     Descripción     |         *El total de ventas por periodo*          |
+| Datos dimensionales |  *Periodo* |   Datos Hechos  | Cantidad de ventas |
+
 
 ### Base de Datos transaccional en SQL Server
 
