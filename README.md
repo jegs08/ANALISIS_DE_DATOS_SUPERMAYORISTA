@@ -761,3 +761,63 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
 
 #### Tablas del modelo dimensional
 
+<table>
+    <thead>
+        <tr>
+            <th>Tabla</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>FACT_SUPERMAYORISTA</strong></td>
+            <td><i>Se registran los movimientos de cada una de las ventas.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_VENDEDOR</strong></td>
+            <td><i>Se registran los vendedores.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_VENTA</strong></td>
+            <td><i>Se registran las ventas realizadas y no realizadas.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_CLIENTE</strong></td>
+            <td><i>Se registran los clientes que interactúan con la empresa.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_PRODUCTO</strong></td>
+            <td><i>Se registran los productos con los que cuenta la empresa.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_SUBCATEGORIA</strong></td>
+            <td><i>Se registran las subcategorías a las que pertenecen los productos.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_CATEGORIA</strong></td>
+            <td><i>Se registran las categorías a las que pertenecen las subcategorías.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_DISTRITO</strong></td>
+            <td><i>Se registran los diferentes distritos de nuestro país.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_DEPARTAMENTO</strong></td>
+            <td><i>Se registran los diferentes departamentos de nuestro país y a los cuales los distritos pertenecen.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_BANCO</strong></td>
+            <td><i>Se registran los bancos con los quer trabaja la empresa.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_PERIODO</strong></td>
+            <td><i>Se registra el periodo en fecha, año, mes y día.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIM_DOCUMENTO</strong></td>
+            <td><i>Se registran los diferentes tipos de documentos con los que trabaja la empresa.</i></td>
+        </tr>
+    </tbody>
+</table>
+
+
