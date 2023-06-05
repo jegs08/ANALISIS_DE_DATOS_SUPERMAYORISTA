@@ -44,9 +44,9 @@ El contenido de este documento son **apuntes teoricos y prácticos** y un proyec
 ## Dashboard "Supermayorista"
 
 <div align="center"> 
-  <img src="readme_img/dash_1.png" width="100px" height="100px">
-  <img src="readme_img/dash_2.png" width="100px" height="100px">
-  <img src="readme_img/dash_3.png" width="100px" height="100px">
+  <img src="readme_img/dash_1.png" width="500px" height="500px">
+  <img src="readme_img/dash_2.png" width="500px" height="500px">
+  <img src="readme_img/dash_3.png" width="500px" height="500px">
 </div>
 
 ## Planificación del proyecto
