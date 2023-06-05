@@ -446,6 +446,62 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 </table>
 
 ##### PRODUCTO
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre Columna</th>
+            <th>Tipo de Dato</th>
+            <th>Null Option</th>
+            <th>Descripción</th>
+            <th>PK</th>
+            <th>FK</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>cod_producto</strong></td>
+            <td><i>Char(9)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Código del producto</i></td>
+            <td><i>PK</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>nombre_producto</strong></td>
+            <td><i>Varchar(50)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Nombre del producto</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>categoria_producto</strong></td>
+            <td><i>Varchar(50)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Nombre de la categoría del producto</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>subcategoria_producto</strong></td>
+            <td><i>Varchar(50)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Nombre de la subcategoría del producto</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>precio_unitario</strong></td>
+            <td><i>decimal(8,2)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Precio Unitario del producto</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+    </tbody>
+</table>
+
 ##### CLIENTE
 ##### VENDEDOR
 ##### TIPO_DOCUMENTO
