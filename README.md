@@ -690,33 +690,25 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
             <td><i>Supevisor-Vendedor</i></td>
         </tr>
         <tr>
-            <td align="center"><strong>Subcategoría</strong></td>
+            <td align="center"><strong>Venta</strong></td>
+        </tr>
+        <tr>
             <td><i>Subcategoría-Producto</i></td>
         </tr>
         <tr>
-            <td align="center"><strong>Categoría</strong></td>
-            <td><i>Categoría-Producto</i></td>
+            <td align="center"><strong>Cliente</strong></td>
         </tr>
         <tr>
-            <td align="center"><strong>Distrito</strong></td>
             <td><i>Distrito-Distrito</i></td>
         </tr>
         <tr>
-            <td align="center"><strong>Departamento</strong></td>
-            <td><i>Departamento-Departamento</i></td>
+            <td align="center"><strong>Producto</strong></td>
         </tr>
         <tr>
-            <td rowspan=2 align="center"><strong>Banco</strong></td>
             <td><i>Nombre-Banco</i></td>
+        </tr>
+        <tr>
             <td><i>Comisión-Banco</i></td>
-        </tr>
-        <tr>
-            <td align="center"><strong>Periodo</strong></td>
-            <td><i>Fecha-Periodo</i></td>
-        </tr>
-        <tr>
-            <td align="center"><strong>Documento</strong></td>
-            <td><i>Tipo-Documento</i></td>
         </tr>
     </tbody>
 </table>
