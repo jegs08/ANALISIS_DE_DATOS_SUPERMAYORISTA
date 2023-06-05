@@ -46,13 +46,6 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 
 ### Requisitos del negocio
 
-|    Identificador    |   *R-01*   |      Nombre     |    *TOP N V VS T*    |
-|---------------------|------------|-----------------|----------------------|
-|         Tipo        |*Funcional* |      Fecha      |     *08/12/2022*     |
-|      Prioridad      |   *Alta*   |    Necesidad    |         *Si*         |
-|     Descripción     |          *El total de ventas por periodo*           |
-| Datos dimensionales |  *Periodo* |   Datos Hechos  | *Cantidad de ventas* |
-
 <table>
     <thead>
         <tr>
@@ -77,13 +70,224 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
         </tr>
         <tr>
             <td align="center"><strong>Descripción</strong></td>
-            <td colspan=3 align="center"><i>El total de ventas por periodo</i></td>
+            <td colspan=3 align="center"><i>"El total de ventas por periodo"</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Datos dimensionales</strong></td>
+            <td align="center"><i>Producto</i></td>
+            <td align="center"><strong>Datos Hechos</strong></td>
+            <td align="center"><i>Más vendidos</i></td>
+        </tr>
+    </tbody>
+</table>
+
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Identificador</strong></th>
+            <th><i>R-02</i></th>
+            <th><strong>Nombre</strong></th>
+            <th><i>TOP N PROD</i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>Tipo</strong></td>
+            <td align="center"><i>Funcional</i></td>
+            <td align="center"><strong>Fecha</strong></td>
+            <td align="center"><i>08/12/2022</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Prioridad</strong></td>
+            <td align="center"><i>Alta</i></td>
+            <td align="center"><strong>Necesidad</strong></td>
+            <td align="center"><i>Si</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Descripción</strong></td>
+            <td colspan=3 align="center"><i>"Cuáles fueron los productos más vendidos"</i></td>
         </tr>
         <tr>
             <td align="center"><strong>Datos dimensionales</strong></td>
             <td align="center"><i>Periodo</i></td>
             <td align="center"><strong>Datos Hechos</strong></td>
             <td align="center"><i>Cantidad de ventas</i></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Identificador</strong></th>
+            <th><i>R-03</i></th>
+            <th><strong>Nombre</strong></th>
+            <th><i>TOP N VE</i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>Tipo</strong></td>
+            <td align="center"><i>Funcional</i></td>
+            <td align="center"><strong>Fecha</strong></td>
+            <td align="center"><i>08/12/2022</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Prioridad</strong></td>
+            <td align="center"><i>Alta</i></td>
+            <td align="center"><strong>Necesidad</strong></td>
+            <td align="center"><i>Si</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Descripción</strong></td>
+            <td colspan=3 align="center"><i>"Quiénes fueron los vendedores con las mayores ventas realizadas"</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Datos dimensionales</strong></td>
+            <td align="center"><i>Vendedor</i></td>
+            <td align="center"><strong>Datos Hechos</strong></td>
+            <td align="center"><i>Mayor cantidad de ventas</i></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Identificador</strong></th>
+            <th><i>R-04</i></th>
+            <th><strong>Nombre</strong></th>
+            <th><i>TOP N S VS F</i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>Tipo</strong></td>
+            <td align="center"><i>Funcional</i></td>
+            <td align="center"><strong>Fecha</strong></td>
+            <td align="center"><i>08/12/2022</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Prioridad</strong></td>
+            <td align="center"><i>Alta</i></td>
+            <td align="center"><strong>Necesidad</strong></td>
+            <td align="center"><i>Si</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Descripción</strong></td>
+            <td colspan=3 align="center"><i>"Quiénes fueron los supervisores que tuvieron baja efectividad (cantidad de ventas en cuerto periodo)"</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Datos dimensionales</strong></td>
+            <td align="center"><i>Vendedor</i></td>
+            <td align="center"><strong>Datos Hechos</strong></td>
+            <td align="center"><i>Cantidad de ventas</i></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Identificador</strong></th>
+            <th><i>R-05</i></th>
+            <th><strong>Nombre</strong></th>
+            <th><i>TOP N V AND C</i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>Tipo</strong></td>
+            <td align="center"><i>Funcional</i></td>
+            <td align="center"><strong>Fecha</strong></td>
+            <td align="center"><i>08/12/2022</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Prioridad</strong></td>
+            <td align="center"><i>Alta</i></td>
+            <td align="center"><strong>Necesidad</strong></td>
+            <td align="center"><i>Si</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Descripción</strong></td>
+            <td colspan=3 align="center"><i>"Cuál es la zona con maores ventas y mayores cantidades de productos vendidos"</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Datos dimensionales</strong></td>
+            <td align="center"><i>Zona</i></td>
+            <td align="center"><strong>Datos Hechos</strong></td>
+            <td align="center"><i>Mayor cantidad de ventas, mayor cantidad de productos vendidos</i></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Identificador</strong></th>
+            <th><i>R-06</i></th>
+            <th><strong>Nombre</strong></th>
+            <th><i>TOP N B VS AC</i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>Tipo</strong></td>
+            <td align="center"><i>Funcional</i></td>
+            <td align="center"><strong>Fecha</strong></td>
+            <td align="center"><i>08/12/2022</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Prioridad</strong></td>
+            <td align="center"><i>Alta</i></td>
+            <td align="center"><strong>Necesidad</strong></td>
+            <td align="center"><i>Si</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Descripción</strong></td>
+            <td colspan=3 align="center"><i>"Cuál es el banco más factible para solicitar un ajuste de comisión"</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Datos dimensionales</strong></td>
+            <td align="center"><i>Banco</i></td>
+            <td align="center"><strong>Datos Hechos</strong></td>
+            <td align="center"><i>Mayor comisión obtenida por las ventas</i></td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <thead>
+        <tr>
+            <th><strong>Identificador</strong></th>
+            <th><i>R-07</i></th>
+            <th><strong>Nombre</strong></th>
+            <th><i>TOP N VE VS V AND C AND M</i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>Tipo</strong></td>
+            <td align="center"><i>Funcional</i></td>
+            <td align="center"><strong>Fecha</strong></td>
+            <td align="center"><i>08/12/2022</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Prioridad</strong></td>
+            <td align="center"><i>Alta</i></td>
+            <td align="center"><strong>Necesidad</strong></td>
+            <td align="center"><i>Si</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Descripción</strong></td>
+            <td colspan=3 align="center"><i>"El top de los vendedores que más comisionan por ventas"</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Datos dimensionales</strong></td>
+            <td align="center"><i>Vendedor</i></td>
+            <td align="center"><strong>Datos Hechos</strong></td>
+            <td align="center"><i>Mayor comisión obtenida en base a la venta</i></td>
         </tr>
     </tbody>
 </table>
