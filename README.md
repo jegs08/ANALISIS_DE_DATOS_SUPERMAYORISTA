@@ -649,7 +649,83 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 
 ### Modelo Dimensional
 
+Tras analizar las entrevistas y requerimientos se continuará determinando las medidas y funciones orientadas a analizar diferentes niveles de información.
+
 #### Elección de dimensiones
+
+Para poder determinar las dimensiones a usar en el Datamart, primero debemos elegir las variables a analizar y que los usuarios suelen utilizar para realizar sus informes. Destacan:
+
+- [x] Fecha
+- [x] Estado de la venta
+- [x] Nombre del Producto
+- [x] Categoría del producto
+- [x] Sub categoría del producto
+- [x] Nombre del vendedor
+- [x] Apellido del vendedor
+- [x] Supervisor del vendedor
+- [x] DNI del cliente
+- [x] Nombre del departamento
+- [x] Nombre del distrito
+- [x] Nombre del banco
+- [x] Comisión del banco
+- [x] Tipo de documento
+
+<table>
+    <thead>
+        <tr>
+            <th colspan=2 align="center">Dimensiones</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=3 align="center"><strong>Vendedor</strong></td>
+            <td><i>Nombre-Vendedor</i></td>
+            <td><i>Apellido-Vendedor</i></td>
+            <td><i>Supevisor-Vendedori></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Venta</strong></td>
+            <td><i>Estado de la venta-Venta</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Cliente</strong></td>
+            <td><i>DNI-Cliente</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Producto</strong></td>
+            <td><i>Nombre-Producto</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Subcategoría</strong></td>
+            <td><i>Subcategoría-Producto</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Categoría</strong></td>
+            <td><i>Categoría-Producto</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Distrito</strong></td>
+            <td><i>Distrito-Distrito</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Departamento</strong></td>
+            <td><i>Departamento-Departamento</i></td>
+        </tr>
+        <tr>
+            <td rowspan=2 align="center"><strong>Banco</strong></td>
+            <td><i>Nombre-Banco</i></td>
+            <td><i>Comisión-Banco</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Periodo</strong></td>
+            <td><i>Fecha-Periodo</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Documento</strong></td>
+            <td><i>Tipo-Documento</i></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Dimensiones encontradas
 
