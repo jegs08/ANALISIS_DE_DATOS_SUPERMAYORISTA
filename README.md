@@ -300,6 +300,8 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 
 ### Diccionario de datos del origen a nivel general de la base de datos transaccional en SQL Server 2017
 
+#### Tablas
+
 <table>
     <thead>
         <tr>
@@ -335,9 +337,79 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
     </tbody>
 </table>
 
-#### Tablas
-
 #### Diccionario de datos de la base de datos transaccional en SQL Server 2017
+
+##### VENTA
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre Columna</th>
+            <th>Tipo de Dato</th>
+            <th>Null Option</th>
+            <th>Descripción</th>
+            <th>PK</th>
+            <th>FK</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>cod_documento</strong></td>
+            <td><i>Char(10)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Código del documento</i></td>
+            <td><i>PK</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>dni_cliente</strong></td>
+            <td><i>Char(8)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>DNI del cliente</i></td>
+            <td><i>-</i></td>
+            <td><i>FK</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>vendedor</strong></td>
+            <td><i>Varchar(50)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Nombre del vendedor</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>nombre_tipo_documento</strong></td>
+            <td><i>Varchar(20)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>>Nombre del tipo de documento</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>estado</strong></td>
+            <td><i>Varchar(10)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Estado de la venta</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>fecha_venta</strong></td>
+            <td><i>datetime</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>fecha de la venta</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+      </tr>
+    </tbody>
+</table>
+
+##### DETALLE_VENTA
+##### PRODUCTO
+##### CLIENTE
+##### VENDEDOR
+##### TIPO_DOCUMENTO
+##### 
 
 ### Modelo Dimensional
 
