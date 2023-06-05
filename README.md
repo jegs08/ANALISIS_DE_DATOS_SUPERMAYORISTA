@@ -50,9 +50,7 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 |---------------------|------------|-----------------|--------------------|
 |         Tipo        |*Funcional* |      Fecha      |    *08/12/2022*    |
 |      Prioridad      |   *Alta*   |    Necesidad    |        *Si*        |
-|---------------------|------------|-----------------|--------------------|
 |     Descripción     |         *El total de ventas por periodo*          |
-|---------------------|------------|-----------------|--------------------|
 | Datos dimensionales |  *Periodo* |   Datos Hechos  | Cantidad de ventas |
 
 
