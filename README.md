@@ -682,20 +682,12 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
         </tr>
         <tr>
             <td><i>Nombre-Vendedor</i></td>
+        </tr>
+        <tr>
             <td><i>Apellido-Vendedor</i></td>
+        </tr>
+        <tr>
             <td><i>Supevisor-Vendedori></td>
-        </tr>
-        <tr>
-            <td align="center"><strong>Venta</strong></td>
-            <td><i>Estado de la venta-Venta</i></td>
-        </tr>
-        <tr>
-            <td align="center"><strong>Cliente</strong></td>
-            <td><i>DNI-Cliente</i></td>
-        </tr>
-        <tr>
-            <td align="center"><strong>Producto</strong></td>
-            <td><i>Nombre-Producto</i></td>
         </tr>
         <tr>
             <td align="center"><strong>Subcategoría</strong></td>
