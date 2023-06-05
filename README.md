@@ -381,7 +381,7 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
             <td align="center"><strong>nombre_tipo_documento</strong></td>
             <td><i>Varchar(20)</i></td>
             <td><i>Not Null</i></td>
-            <td><i>>Nombre del tipo de documento</i></td>
+            <td><i>Nombre del tipo de documento</i></td>
             <td><i>-</i></td>
             <td><i>-</i></td>
         </tr>
@@ -405,6 +405,46 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 </table>
 
 ##### DETALLE_VENTA
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre Columna</th>
+            <th>Tipo de Dato</th>
+            <th>Null Option</th>
+            <th>Descripción</th>
+            <th>PK</th>
+            <th>FK</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>cod_documento</strong></td>
+            <td><i>int</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Número de orden de compra</i></td>
+            <td><i>-</i></td>
+            <td><i>FK</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>cod_producto</strong></td>
+            <td><i>Char(9)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Código del producto</i></td>
+            <td><i>-</i></td>
+            <td><i>FK</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>cantidad</strong></td>
+            <td><i>int</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Cantidad de productos vendidos</i></td>
+            <td><i>-</i></td>
+            <td><i>FK</i></td>
+        </tr>
+    </tbody>
+</table>
+
 ##### PRODUCTO
 ##### CLIENTE
 ##### VENDEDOR
