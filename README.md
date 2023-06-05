@@ -46,13 +46,47 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 
 ### Requisitos del negocio
 
-|    Identificador    |   *R-01*   |      Nombre     |   *TOP N V VS T*   |
-|---------------------|------------|-----------------|--------------------|
-|         Tipo        |*Funcional* |      Fecha      |    *08/12/2022*    |
-|      Prioridad      |   *Alta*   |    Necesidad    |        *Si*        |
-|     Descripción     |         *El total de ventas por periodo*          |
-| Datos dimensionales |  *Periodo* |   Datos Hechos  | Cantidad de ventas |
+|    Identificador    |   *R-01*   |      Nombre     |    *TOP N V VS T*    |
+|---------------------|------------|-----------------|----------------------|
+|         Tipo        |*Funcional* |      Fecha      |     *08/12/2022*     |
+|      Prioridad      |   *Alta*   |    Necesidad    |         *Si*         |
+|     Descripción     |          *El total de ventas por periodo*           |
+| Datos dimensionales |  *Periodo* |   Datos Hechos  | *Cantidad de ventas* |
 
+<table>
+    <thead>
+        <tr>
+            <th>Identificador</th>
+            <th><i>R-01</i></th>
+            <th>Nombre</th>
+            <th><i>TOP N V VS T</i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">Tipo</td>
+            <td align="center"><i>Funcional</i></td>
+            <td align="center">Fecha</td>
+            <td align="center"><i>08/12/2022</i></td>
+        </tr>
+        <tr>
+            <td align="center">Prioridad</td>
+            <td align="center"><i>Alta</i></td>
+            <td align="center">Necesidad</td>
+            <td align="center"><i>Si</i></td>
+        </tr>
+        <tr>
+            <td align="center">Descripción</td>
+            <td colspan=3 align="center"><i>El total de ventas por periodo</i></td>
+        </tr>
+        <tr>
+            <td align="center">Datos dimensionales</td>
+            <td align="center"><i>Periodo</i></td>
+            <td align="center">Datos Hechos<td>
+            <td align="center"><i>Cantidad de ventas</i></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Base de Datos transaccional en SQL Server
 
