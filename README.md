@@ -56,33 +56,33 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 <table>
     <thead>
         <tr>
-            <th>Identificador</th>
+            <th><strong>Identificador</strong></th>
             <th><i>R-01</i></th>
-            <th>Nombre</th>
+            <th><strong>Nombre</strong></th>
             <th><i>TOP N V VS T</i></th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td align="center">Tipo</td>
+            <td align="center"><strong>Tipo</strong></td>
             <td align="center"><i>Funcional</i></td>
-            <td align="center">Fecha</td>
+            <td align="center"><strong>Fecha</strong></td>
             <td align="center"><i>08/12/2022</i></td>
         </tr>
         <tr>
-            <td align="center">Prioridad</td>
+            <td align="center"><strong>Prioridad</strong></td>
             <td align="center"><i>Alta</i></td>
-            <td align="center">Necesidad</td>
+            <td align="center"><strong>Necesidad</strong></td>
             <td align="center"><i>Si</i></td>
         </tr>
         <tr>
-            <td align="center">Descripción</td>
+            <td align="center"><strong>Descripción</strong></td>
             <td colspan=3 align="center"><i>El total de ventas por periodo</i></td>
         </tr>
         <tr>
-            <td align="center">Datos dimensionales</td>
+            <td align="center"><strong>Datos dimensionales</strong></td>
             <td align="center"><i>Periodo</i></td>
-            <td align="center">Datos Hechos</td>
+            <td align="center"><strong>Datos Hechos</strong></td>
             <td align="center"><i>Cantidad de ventas</i></td>
         </tr>
     </tbody>
