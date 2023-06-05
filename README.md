@@ -882,7 +882,7 @@ FACT_SUPERMAYORISTA está conformada por:
             <td><i>Cantidad del producto.</i></td>
         </tr>
         <tr>
-            <td align="center"><strong>PREIO_UNIT</strong></td>
+            <td align="center"><strong>PRECIO_UNIT</strong></td>
             <td><i>float</i></td>
             <td><i>-</i></td>
             <td><i>Precio del producto.</i></td>
