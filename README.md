@@ -21,7 +21,7 @@ El contenido de este documento son **apuntes teoricos y prácticos** y un proyec
 
 ## Tabla de contenido
 - [Planificación del proyecto](#Planificación-del-proyecto)
-  - [Alcance del negocio](#Alcance-del-proyecto)
+  - [Alcance del negocio](#Alcance-del-negocio)
 - [Definición de requerimientos para la empresa SUPERMAYORISTA](#Definición-de-requerimientos-para-la-empresa-SUPERMAYORISTA)
   - [Requisitos del negocios](#Requisitos-del-negocio)
   - [Base de Datos transaccional en SQL Server](#Base-de-Datos-transaccional-en-SQL-Server)
