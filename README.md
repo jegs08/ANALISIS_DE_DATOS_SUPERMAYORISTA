@@ -820,4 +820,74 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
     </tbody>
 </table>
 
+##### Tabla Hechos: FACT_SUPERMAYORISTA
+
+FACT_SUPERMAYORISTA está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>FACT_VENTA</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea relacionada a la dimensión Venta.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_CLIENTE</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea relacionada a la dimensión Cliente.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_VENDEDOR</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea relacionada a la dimensión Vendedor.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_BANCO</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea relacionada a la dimensión Banco.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_PRODUCTO</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea relacionada a la dimensión Producto.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_PERIODO</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea relacionada a la dimensión Periodo.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_TIPO_DOCUMENTO</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea relacionada a la dimensión Documento.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>CANTIDAD_PRODUCTO</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Cantidad del producto.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>PREIO_UNIT</strong></td>
+            <td><i>float</i></td>
+            <td><i>-</i></td>
+            <td><i>Precio del producto.</i></td>
+        </tr>
+    </tbody>
+</table>
+
 
