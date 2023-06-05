@@ -715,6 +715,21 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
             <td align="center"><strong>Departamento</strong></td>
             <td><i>Departamento-Departamento</i></td>
         </tr>
+        <tr>
+            <td rowspan=2 align="center"><strong>Banco</strong></td>
+            <td><i>Nombre-Banco</i></td>
+        </tr>
+        <tr>
+            <td><i>Comisión-Banco</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Periodo</strong></td>
+            <td><i>Fecha-Periodo</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>Documento</strong></td>
+            <td><i>Tipo-Documento</i></td>
+        </tr>
     </tbody>
 </table>
 
