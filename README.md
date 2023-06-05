@@ -300,6 +300,41 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 
 ### Diccionario de datos del origen a nivel general de la base de datos transaccional en SQL Server 2017
 
+<table>
+    <thead>
+        <tr>
+            <th>Tabla</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>VENTA</strong></td>
+            <td align="center"><i>Se registran los movimiento de las ventas realizadas.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DETALLE_VENTA</strong></td>
+            <td align="center"><i>Se registran los detalle de las ventas realizadas.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>PRODUCTO</strong></td>
+            <td align="center"><i>Se registran los productos de la empresa.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>CLIENTE</strong></td>
+            <td align="center"><i>Se registran los clientes de la empresa.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>VENDEDOR</strong></td>
+            <td align="center"><i>Se registran los vendedores de la empresa.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>TIPO_DOCUMENTO</strong></td>
+            <td align="center"><i>Se registran los tipos de documentos que maneja la empresa.</i></td>
+      </tr>
+    </tbody>
+</table>
+
 #### Tablas
 
 #### Diccionario de datos de la base de datos transaccional en SQL Server 2017
