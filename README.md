@@ -80,7 +80,7 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
             <td colspan=3 align="center"><i>El total de ventas por periodo</i></td>
         </tr>
         <tr>
-            <td align="center" bgcolor="green"><strong>Datos dimensionales</strong></td>
+            <td bgcolor="green" align="center"><strong>Datos dimensionales</strong></td>
             <td align="center" bgcolor="green"><i>Periodo</i></td>
             <td align="center" bgcolor="orange"><strong>Datos Hechos</strong></td>
             <td align="center" bgcolor="orange"><i>Cantidad de ventas</i></td>
