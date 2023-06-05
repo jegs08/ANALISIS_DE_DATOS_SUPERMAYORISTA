@@ -29,7 +29,7 @@ El contenido de este documento son **apuntes teoricos y prácticos** y un proyec
     - [Tablas](#Tablas)
     - [Diccionario de datos de la base de datos transaccional en SQL Server 2017](#Diccionario-de-datos-de-la-base-de-datos-transaccional-en-SQL-Server-2017)
 - [Modelo Dimensional](#Modelo-Dimensional)
-  - [Elección de dimensiones](#Eleción-de-dimensiones)
+  - [Elección de dimensiones](#Elección-de-dimensiones)
 - [Dimensiones encontradas](#Dimensiones-encontradas)
 - [Diseño lógico](#Diseño-lógico)
 - [Diseño físico](#Diseño-físico)
