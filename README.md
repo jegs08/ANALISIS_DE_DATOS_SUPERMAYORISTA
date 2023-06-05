@@ -755,5 +755,9 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
 
 ### Diseño físico
 
+<div align="center"> 
+  <img src="readme_img/fig_3.png" width="">
+</div>
+
 #### Tablas del modelo dimensional
 
