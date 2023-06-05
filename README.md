@@ -64,7 +64,7 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
     </thead>
     <tbody>
         <tr>
-            <td align="center"><strong style="color:Blue;">Tipo</strong></td>
+            <td align="center"><strong style="color:#FFFF00" />Tipo</strong></td>
             <td align="center"><i>Funcional</i></td>
             <td align="center"><strong>Fecha</strong></td>
             <td align="center"><i>08/12/2022</i></td>
