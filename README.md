@@ -735,6 +735,18 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
 
 ### Dimensiones encontradas
 
+- [x] DIM_VENDEDOR
+- [x] DIM_VENTA
+- [x] DIM_CLIENTE
+- [x] DIM_PRODUCTO
+- [x] DIM_SUBCATEGORIA
+- [x] DIM_CATEGORIA
+- [x] DIM_DISTRITO
+- [x] DIM_DEPARTAMENTO
+- [x] DIM_BANCO
+- [x] DIM_PERIODO
+- [x] DIM_DOCUMENTO
+
 ### Diseño lógico
 
 ### Diseño físico
