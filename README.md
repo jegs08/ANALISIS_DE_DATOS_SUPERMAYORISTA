@@ -890,4 +890,46 @@ FACT_SUPERMAYORISTA está conformada por:
     </tbody>
 </table>
 
+##### Dimensión vendedor: DIM_VENDEDOR
 
+La dimensión DIM_VENDEDOR está conformada por:
+
+##### Dimensión venta: DIM_VENTA
+
+La dimensión DIM_VENTA está conformada por:
+
+##### Dimensión cliente: DIM_CLIENTE
+
+La dimensión DIM_CLIENTE está conformada por:
+
+##### Dimensión producto: DIM_PRODUCTO
+
+La dimensión DIM_PRODUCTO está conformada por:
+
+##### Dimensión subcategoría: DIM_SUBCATEGORIA
+
+La dimensión DIM_SUBCATEGORIA está conformada por:
+
+##### Dimensión categoría: DIM_CATEGORIA
+
+La dimensión DIM_CATEGORIA está conformada por:
+
+##### Dimensión distrito: DIM_DISTRITO
+
+La dimensión DIM_DISTRITO está conformada por:
+
+##### Dimensión departamento: DIM_DEPARTAMENTO
+
+La dimensión DIM_DEPARTAMENTO está conformada por:
+
+##### Dimensión banco: DIM_BANCO
+
+La dimensión DIM_BANCO está conformada por:
+
+##### Dimensión periodo: DIM_PERIODO
+
+La dimensión DIM_PERIODO está conformada por:
+
+##### Dimensión documento: DIM_DOCUMENTO
+
+La dimensión DIM_DOCUMENTO está conformada por:
