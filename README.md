@@ -893,43 +893,410 @@ FACT_SUPERMAYORISTA está conformada por:
 ##### Dimensión vendedor: DIM_VENDEDOR
 
 La dimensión DIM_VENDEDOR está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>VENDEDOR_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión vendedor.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>CODIGO_VENDEDOR</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>9</i></td>
+            <td><i>Código para la dimensión vendedor.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>NOMBRE_VENDEDOR</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>65</i></td>
+            <td><i>Nombre del vendedor.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>SUPERVISOR</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Número del supervisor.</i></td>
+        </tr>
+    </tbody>
+</table>
+
 
 ##### Dimensión venta: DIM_VENTA
 
 La dimensión DIM_VENTA está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>VENTA_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión venta.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>COD_VENTA</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>13</i></td>
+            <td><i>Código para la dimensión venta.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>ESTADO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>13</i></td>
+            <td><i>Nombre del estado de la venta.</i></td>
+        </tr>
+    </tbody>
+</table>
+
 
 ##### Dimensión cliente: DIM_CLIENTE
 
 La dimensión DIM_CLIENTE está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>DNI_CLIENTE</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>14</i></td>
+            <td><i>Llave para la dimnesión cliente.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_DISTRITO</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea de la dimensión cliente.</i></td>
+        </tr>
+    </tbody>
+</table>
+
 
 ##### Dimensión producto: DIM_PRODUCTO
 
 La dimensión DIM_PRODUCTO está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>PRODUCTO_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión producto.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>COD_PRODUCTO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>12</i></td>
+            <td><i>Código para la dimensión producto.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>NOMBRE_PRODUCTO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>195</i></td>
+            <td><i>Nombre del producto.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_SUPERCATEGORIA</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea para la dimensión producto.</i></td>
+        </tr>
+    </tbody>
+</table>
+
 
 ##### Dimensión subcategoría: DIM_SUBCATEGORIA
 
 La dimensión DIM_SUBCATEGORIA está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>SUBCATEGORIA_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión subcategoría.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DESCRIPCION</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>65</i></td>
+            <td><i>Descripción para la dimensión subcategoría.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_CATEGORIA</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave foránea para la dimensión subcategoría</i></td>
+        </tr>
+    </tbody>
+</table>
+
 
 ##### Dimensión categoría: DIM_CATEGORIA
 
 La dimensión DIM_CATEGORIA está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>CATEGORIA_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión categoría.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DESCRIPCION</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>65</i></td>
+            <td><i>Nombre de la categoría.</i></td>
+        </tr>
+    </tbody>
+</table>
+
 
 ##### Dimensión distrito: DIM_DISTRITO
 
 La dimensión DIM_DISTRITO está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>DISTRITO_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión producto.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>NOMBRE_DISTRITO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>65</i></td>
+            <td><i>Nombre del distrito.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>UBIGEO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>13</i></td>
+            <td><i>Código del producto.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>NOMBRE_DISTRITO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>65</i></td>
+            <td><i>Número del distrito.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FK_DEPARTAMERNTO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>65</i></td>
+            <td><i>Llave foránea para la dimensión distrito.</i></td>
+        </tr>
+    </tbody>
+</table>
+
 
 ##### Dimensión departamento: DIM_DEPARTAMENTO
 
 La dimensión DIM_DEPARTAMENTO está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>DEPARTAMENTO_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión departamento.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>NOMBRE_DEPARTAMENTO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>65</i></td>
+            <td><i>Nombre del departamento.</i></td>
+        </tr>
+    </tbody>
+</table>
 
 ##### Dimensión banco: DIM_BANCO
 
 La dimensión DIM_BANCO está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>BANCO_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión banco.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>COD_BANCO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>7</i></td>
+            <td><i>Código del banco.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>NOMBRE_BANCO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>65</i></td>
+            <td><i>Nombre del banco.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>COMISION</strong></td>
+            <td><i>float</i></td>
+            <td><i>-</i></td>
+            <td><i>Comisión según sea el banco.</i></td>
+        </tr>
+    </tbody>
+</table>
 
 ##### Dimensión periodo: DIM_PERIODO
 
 La dimensión DIM_PERIODO está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>PERIODO_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión producto.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>FECHA</strong></td>
+            <td><i>date</i></td>
+            <td><i>-</i></td>
+            <td><i>Fecha de la venta.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>ANIO</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Año de la venta.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>MES</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Mes de la venta.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>DIA</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Día de la venta.</i></td>
+        </tr>
+    </tbody>
+</table>
 
 ##### Dimensión documento: DIM_DOCUMENTO
 
 La dimensión DIM_DOCUMENTO está conformada por:
+<table>
+    <thead>
+        <tr>
+            <th>Campo</th>
+            <th>Tipo de Dato</th>
+            <th>Longitud</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>DOCUMENTO_KEY</strong></td>
+            <td><i>int</i></td>
+            <td><i>-</i></td>
+            <td><i>Llave para la dimnesión documento.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>COD_TIPO_DOCUMENTO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>8</i></td>
+            <td><i>Código del tipo de documento.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>NOMBRE_TIPO_DOCUMENTO</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>26</i></td>
+            <td><i>Nombre del tipo de documento.</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>INDICADOR</strong></td>
+            <td><i>Varchar</i></td>
+            <td><i>1</i></td>
+            <td><i>Indicador del tipo de documento.</i></td>
+        </tr>
+    </tbody>
+</table>
