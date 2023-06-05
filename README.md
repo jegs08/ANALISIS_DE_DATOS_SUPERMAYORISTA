@@ -294,6 +294,10 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
 
 ### Base de Datos transaccional en SQL Server
 
+<div align="center"> 
+  <img src="readme_img/fig_1.png" width="">
+</div>
+
 ### Diccionario de datos del origen a nivel general de la base de datos transaccional en SQL Server 2017
 
 #### Tablas
