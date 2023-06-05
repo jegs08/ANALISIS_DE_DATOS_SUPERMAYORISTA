@@ -41,7 +41,7 @@ El contenido de este documento son **apuntes teoricos y prácticos** y un proyec
 - [Diseño físico](#Diseño-físico)
   - [Tablas del modelo dimensional](#Tablas-del-modelo-dimensional)
 
-## Dashboard "SUpermayorista"
+## Dashboard "Supermayorista"
 
 <div align="center"> 
   <img src="readme_img/dash_1.png" width="100px" height="100px">
