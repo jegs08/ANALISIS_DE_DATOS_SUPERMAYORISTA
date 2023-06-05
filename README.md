@@ -687,7 +687,7 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
             <td><i>Apellido-Vendedor</i></td>
         </tr>
         <tr>
-            <td><i>Supevisor-Vendedori></td>
+            <td><i>Supevisor-Vendedor</i></td>
         </tr>
         <tr>
             <td align="center"><strong>Subcategoría</strong></td>
