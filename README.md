@@ -559,8 +559,55 @@ El presente proyecto busca ayudar con la gestión del área de ventas de la empr
     </tbody>
 </table>
 
-
 ##### VENDEDOR
+
+<table>
+    <thead>
+        <tr>
+            <th>Nombre Columna</th>
+            <th>Tipo de Dato</th>
+            <th>Null Option</th>
+            <th>Descripción</th>
+            <th>PK</th>
+            <th>FK</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center"><strong>cod_vendedor</strong></td>
+            <td><i>Char(7)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Código del empleado</i></td>
+            <td><i>PK</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>apellido_vendedor</strong></td>
+            <td><i>Varchar(30)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Apellido del vendedor</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>nombre_vendedor</strong></td>
+            <td><i>Varchar(20)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Nombre del vendedor</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+        <tr>
+            <td align="center"><strong>supervisor</strong></td>
+            <td><i>Char(7)</i></td>
+            <td><i>Not Null</i></td>
+            <td><i>Apellido del empleado</i></td>
+            <td><i>-</i></td>
+            <td><i>-</i></td>
+        </tr>
+    </tbody>
+</table>
+
 ##### TIPO_DOCUMENTO
 ##### 
 
