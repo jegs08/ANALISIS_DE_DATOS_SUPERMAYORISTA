@@ -691,14 +691,10 @@ Para poder determinar las dimensiones a usar en el Datamart, primero debemos ele
         </tr>
         <tr>
             <td align="center"><strong>Venta</strong></td>
-        </tr>
-        <tr>
             <td><i>Subcategoría-Producto</i></td>
         </tr>
         <tr>
             <td align="center"><strong>Cliente</strong></td>
-        </tr>
-        <tr>
             <td><i>Distrito-Distrito</i></td>
         </tr>
         <tr>
